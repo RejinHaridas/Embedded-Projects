@@ -1,3 +1,5 @@
+// this is a program interfacing the Gas Sensor and uploading the output onto the Thingspeak server via Wifi
+
 #include <WiFi.h>
 
 #include <HTTPClient.h>
