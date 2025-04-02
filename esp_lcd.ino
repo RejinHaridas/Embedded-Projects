@@ -1,4 +1,4 @@
-
+// this is a code for interfacing the 16 x 2 LCD display using the ESP32
 #include <LiquidCrystal.h>
 
 const int RS = 23;    // Register Select
