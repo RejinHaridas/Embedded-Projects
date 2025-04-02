@@ -1,3 +1,4 @@
+// This code interfaces the MPU6050 with the ESP32 monitoring the Acceeration Gyro and the temperature and print it on the Serial monitor
 #include <Adafruit_MPU6050.h>
 #include <MPU6050.h>
 #include <Wire.h>
