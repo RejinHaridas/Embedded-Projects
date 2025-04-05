@@ -56,6 +56,9 @@ void oled_init() {
   delay(10);
   gpio_set_level(PIN_RST, 1);
 
+
+// these are the default settings for the initialization of the OLED
+
   oled_cmd(0xAE); // Display off
   oled_cmd(0xD5); oled_cmd(0x80); // Set display clock
   oled_cmd(0xA8); oled_cmd(0x3F); // Set multiplex
@@ -73,6 +76,8 @@ void oled_init() {
   oled_cmd(0xA6); // Normal display
   oled_cmd(0xAF); // Display ON
 }
+
+
 
 void app_main() {
   // Setup GPIO
