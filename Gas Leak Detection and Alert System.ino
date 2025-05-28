@@ -4,8 +4,8 @@
 #include <HTTPClient.h>
 #include <ESP_Mail_Client.h> 
 
-const char* ssid = "test1";
-const char* password = "123456789";
+const char* ssid = "SSID";
+const char* password = "password";
 
 const char* server = "https://api.thingspeak.com/update?api_key=3M3XUTOCEUWUMH6G&field1=0e";
 const char* apiKey = "3M3XUTOCEUWUMH6G";
