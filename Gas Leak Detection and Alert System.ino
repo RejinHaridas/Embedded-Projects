@@ -1,4 +1,4 @@
-// this is a program interfacing the Gas Sensor and uploading the output onto the Thingspeak server via Wifi
+//  It is an IoT-based embedded project designed to detect harmful gas leaks in real time using an MQ gas sensor interfaced with an ESP32 microcontroller. When dangerous gas levels are detected, the system automatically activates a PWM-controlled exhaust fan to ventilate the area and sends an email alert to the user using Wi-Fi connectivity. Additionally, it logs the analog gas concentration values and the digital status to the ThingSpeak cloud platform, enabling real-time remote monitoring. This system enhances safety in environments like kitchens, laboratories, and industrial areas by providing timely alerts and automated responses to gas leaks.
 
 #include <WiFi.h>
 #include <HTTPClient.h>
